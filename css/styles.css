@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: bisque;
 }
 
 main {
@@ -24,15 +25,27 @@ main > h1 {
 }
 
 main > p {
-    margin-top: 0;
+    margin: 0;    
+    padding: 0.25em;
+
+    height: fit-content;
+    width: fit-content;
+
+    font-size: 5em;
+    font-weight: 900;
     text-transform: uppercase;
+    background-color: white;
+    
 }
 
 main > .text-left {
+    position: relative;
+    left: 5%;
+    top: 5%;
+
     justify-self: end;
 }
 
 main > img {
-    max-width: 500px;
-    justify-self: center;
+    max-width: 700px;
 }
