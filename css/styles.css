@@ -31,6 +31,9 @@ main > p {
     height: fit-content;
     width: fit-content;
 
+    position: relative;
+    top: 5%;
+
     font-size: 5em;
     font-weight: 900;
     text-transform: uppercase;
@@ -39,12 +42,17 @@ main > p {
 }
 
 main > .text-left {
-    position: relative;
     left: 5%;
-    top: 5%;
+}
 
+main > p:not(.text-left) {
+    right: 5%;
+}
+
+main > .text-left, main > img[src="images/butter-chicken.jpg"] {
     justify-self: end;
 }
+
 
 main > img {
     max-width: 700px;
