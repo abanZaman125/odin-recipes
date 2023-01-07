@@ -8,7 +8,6 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
     row-gap: 20em;
-    justify-items: center;
     padding-bottom: 5em;
 }
 
@@ -17,15 +16,20 @@ main > h1 {
 
     justify-self: flex-start;
 
-    margin: 3em 0 0 8rem;
+    margin: 3em 0 0 8.5rem;
 
     font-size: 6em;
+    font-weight: 100;
     text-transform: uppercase;
 }
 
 main > p {
-    font-weight: bold;
+    margin-top: 0;
     text-transform: uppercase;
+}
+
+main > .text-left {
+    justify-self: end;
 }
 
 main > img {
