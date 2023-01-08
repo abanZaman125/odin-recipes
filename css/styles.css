@@ -38,6 +38,8 @@ main > p {
     font-weight: 900;
     text-transform: uppercase;
     background-color: white;
+
+    /*box-shadow: grey 7px 7px 60px -20px;*/
 }
 
 main > .text-left {
