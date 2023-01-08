@@ -9,7 +9,7 @@ body {
 
 main {
     max-width: 100ch;
-    /*padding: 3em 0 5em;*/
+    padding: 3em 0 5em;
 }
 
 h1 {
@@ -18,8 +18,31 @@ h1 {
 
 h2 {
     font-size: 1.65em;
+    margin-top: 1.75em;
 }
 
 p, li {
     font-size: 1.125rem;
+}
+
+img {
+    margin-top: 2em;
+    width: 85%;
+}
+
+h1, h2 {
+    padding: 0.5em;
+    width: fit-content;
+    background-color: white;
+}
+
+ol>li {
+    margin-bottom: 0.75em;
+}
+
+main p:last-child {
+    font-size: 2.5em;
+    padding: 0.5em;
+    font-style:italic;
+    background-color: #ef9797;
 }
