@@ -24,7 +24,7 @@ main > h1 {
     text-transform: uppercase;
 }
 
-main > p {
+main > a{
     margin: 0;    
     padding: 0.25em;
 
@@ -34,19 +34,26 @@ main > p {
     position: relative;
     top: 5%;
 
+    transition: color 0.5s;
+    color: black;
     font-size: 5em;
     font-weight: 900;
     text-transform: uppercase;
+    text-decoration: none;
     background-color: white;
 
-    /*box-shadow: grey 7px 7px 60px -20px;*/
+    box-shadow: grey 7px 7px 60px -2px
+}
+
+main > a:hover {
+    color: gray;
 }
 
 main > .text-left {
     left: 5%;
 }
 
-main > p:not(.text-left) {
+main > a:not(.text-left) {
     right: 5%;
 }
 
