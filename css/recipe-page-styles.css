@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: bisque;
+    
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 100ch;
+    /*padding: 3em 0 5em;*/
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.65em;
+}
+
+p, li {
+    font-size: 1.125rem;
+}
