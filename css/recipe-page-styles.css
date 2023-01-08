@@ -47,6 +47,16 @@ h1, h2 {
     background-color: white;
 }
 
+h3 {
+    font-size: 1.3em;
+    color: cornflowerblue;
+    padding-inline-start: 40px;
+}
+
+main>ul {
+    padding-inline-start: 80px;
+}
+
 ol>li {
     margin-bottom: 0.75em;
 }
