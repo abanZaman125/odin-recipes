@@ -12,6 +12,17 @@ main {
     padding: 3em 0 5em;
 }
 
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: cornflowerblue;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
 h1 {
     font-size: 3em;
 }
@@ -46,3 +57,4 @@ main p:last-child {
     font-style:italic;
     background-color: #ef9797;
 }
+
